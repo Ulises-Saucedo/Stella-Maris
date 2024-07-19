@@ -168,6 +168,7 @@ export const verify = async (
     user: {
       id: userFound._id.toString(),
       email: userFound.email,
+      role: userFound.role,
     },
   });
 };
