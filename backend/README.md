@@ -26,6 +26,11 @@ Esta es una API RESTful desarrollada con Node.js, con el fin de que una instituc
     JWT_SECRET=
     PORT=
    ```
+4. Crear la carpeta uploads dentro de la raíz del proyecto para poder subir los archivos:
+   ```sh
+      root
+      |__ 📁 uploads
+   ```
 
 ## Comandos 🕹
 
