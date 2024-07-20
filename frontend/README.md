@@ -1,75 +1,39 @@
-# Nuxt 3 Minimal Starter
+# URLShorter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Descripción
+Esta es el frontend del acortador de URLs. Está construido Vue.js, Typescript y pnpm como gestor de paquetes.
 
-## Setup
+## Requisitos
+-  [NodeJS](https://nodejs.org/en)
+-  [pnpm](https://pnpm.io/es/)
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Instalación
+1. Clona el repositorio a tu máquina local:
+    ```sh
+    git clone https://github.com/Ulises-Saucedo/Stella-Maris.git
+    ```
+2. Instalar las dependencias necesarias:
+    ```sh
+    cd frontend && pnpm install
+    ```
+3. Configuración (si cambió el puerto escuchado por express), deberá ir al directorio services y cambiar las rutas.
+   
+## Comandos 🕹
+1. Desarrollo:
+   ```sh
+    pnpm dev
+   ```
+2. Construcción:
+   ```sh
+    pnpm build
+   ```
+3. Producción:
+   ```sh
+    pnpm start
+   ```
+   
+## Enlaces útiles
+-  [Nuxt.js](https://nuxt.com/)
+-  [Typescript](https://www.typescriptlang.org/)
+-  [NodeJS](https://nodejs.org/en)
+-  [pnpm](https://pnpm.io/es/)
